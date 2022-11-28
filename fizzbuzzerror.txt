@@ -1,0 +1,26 @@
+01 rem this program is like "fizzbuzz" but fizz is 30 and buzz is 50
+02 let i = 1
+03 let t = 1
+04 let f = 1
+05 let m = 1
+06 if i > 100 end
+07 if m == 15 goto 20
+08 if f = 5 goto 30
+09 if t == 3 goto 40
+10 print i
+11 let i = i + 1
+12 let t = t + 1
+13 let m = m + 1
+14 let f = f + 1
+15 goto 06
+20 print 3050
+21 let m = 0
+22 let f = 0
+23 let t = 0
+22 goto 11
+30 print 50
+31 let f = 0
+32 goto 11
+40 print 30
+41 let t = 0
+42 goto 11

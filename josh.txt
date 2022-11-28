@@ -1,0 +1,10 @@
+10 rem Calculate square of positive integers until negative value is entered.
+20 input j
+25 rem test for sentinel value
+30 if j < 0 goto 99
+35 rem calculate the square of j and store into k
+40 let k = j * j
+50 print k
+55 rem loop to get next j 
+60 goto 20
+99 end

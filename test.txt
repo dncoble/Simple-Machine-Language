@@ -1,0 +1,33 @@
+01 rem this program is like "fizzbuzz" but fizz is 1 and buzz is 2
+02 let i = 0
+03 if i > 100 end
+05 let t = 0
+06 let x = i
+07 goto 66
+09 let f = 0
+10 let x = i
+11 goto 71
+16 if t == 1 goto 55
+18 if f == 1 goto 60
+20 print i
+22 let i = i + 1
+24 goto 03
+25 rem end of main loop
+54 rem fizz and skip i print
+55 print 1
+56 goto 22
+59 rem buzz and skip i print
+60 print 2
+61 goto 22
+65 rem modulus function for 3
+66 if x < 3 goto 69
+67 let x = x - 3
+68 goto 66
+69 if x == 0 let t = 1
+70 goto 09
+75 rem modulus function for 5
+76 if x < 5 goto 79
+77 let x = x - 5
+78 goto 71
+79 if x == 0 let f = 1
+80 goto 12
